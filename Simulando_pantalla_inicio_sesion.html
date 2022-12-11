@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulando Pantalla inicio de Sesión</title>
+</head>
+
+<body>
+    <h1>Simulando Pantalla inicio de Sesión</h1>
+    <script>
+        for (var intentos = 1; intentos <=3; intentos++) {
+        var inicioDeSesionRegistrado = "alura";
+        var contrasenhaRegistrada = "alura321";
+
+        var inicioDeSesionIngresado = prompt("Ingrese su usuario");
+        var contrasenhaIngresada = prompt("Ingrese su contraseña");
+
+        if (inicioDeSesionRegistrado == inicioDeSesionIngresado && contrasenhaRegistrada == contrasenhaIngresada) {
+            alert("Bienvenido al sistema " + inicioDeSesionIngresado);
+        } else {
+            alert("inicio de sesión inválido. Favor intente de nuevo");
+        }
+    }
+    </script>
+</body>
+
+</html>
