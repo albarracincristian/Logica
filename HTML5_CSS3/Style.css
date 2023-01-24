@@ -1,15 +1,44 @@
-body{
+body {
     background-color: ghostwhite;
 }
 
-em strong{
+em strong {
     color: brown;
 }
 
-p{
+p {
     text-align: center;
 }
 
-h1{
+h1 {
     text-align: center;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+#banner {
+    border-radius: 20px;
+    width: 98vw;
+    box-shadow: 10px 10px 5px #888888, -10px -10px 5px #cccccc;
+}
+
+@media (min-width: 600px) {
+    #banner {
+        width: 98vw;
+        height: 50vh;
+    }
+}
+
+div{
+    justify-content: center;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    margin-right: 15%;
+}
+
+.items{
+    font-style: italic;
 }
